@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "group": "elytra",
+  "pattern": [
+    "###",
+    "#/#",
+    "###"
+  ],
+  "key": {
+    "#": "minecraft:feather",
+    "/": "minecraft:elytra"
+  },
+  "result": {
+    "id": "minecraft:elytra",
+    "count": 1,
+    "components": {
+      "minecraft:custom_model_data": 1,
+      "minecraft:equippable": {
+        "slot": "chest",
+        "model": "minecraft:elytra_ange",
+        "dispensable": true,
+        "swappable": true
+      },
+      "minecraft:glider": {}
+    }
+  },
+  "show_notification": true
+}
